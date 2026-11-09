@@ -1,5 +1,7 @@
 # MeMS Custom Memory Manager
 
+[![Verify](https://github.com/RynTrq/Memory-Management/actions/workflows/verify.yml/badge.svg)](https://github.com/RynTrq/Memory-Management/actions/workflows/verify.yml)
+
 MeMS is a compact C implementation of a simulated virtual memory manager. It
 returns deterministic MeMS virtual addresses that begin at `1000`, backs storage
 with `mmap`, tracks free and used ranges in linked-list metadata, and translates
